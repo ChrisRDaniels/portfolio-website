@@ -245,6 +245,7 @@ input, select, textarea {
 	i {
 		font-size: 3rem;
 	}
+
 	em, i {
 		font-style: italic;
 	}
@@ -2416,7 +2417,7 @@ input, select, textarea {
 
 	.image {
 		border-radius: 5px;
-		border: 0;
+		border: 2px solid white;
 		display: inline-block;
 		position: relative;
 	}
@@ -2426,7 +2427,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		max-width:30%;
 		min-width: 10%;
-		border-radius: 150px;
+		border-radius: 75px;
 	}
 		.image img {
 			border-radius: 5px;
